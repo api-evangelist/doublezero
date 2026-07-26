@@ -1,0 +1,39 @@
+# DoubleZero
+
+> DoubleZero is a protocol for building and operating high-performance, permissionless networks — a global dedicated-fiber network for distributed systems like blockchains, delivering low-latency connectivity and real-time data infrastructure where milliseconds matter.
+
+## Products
+
+- [DoubleZero Edge](https://doublezero.xyz/dz-edge): Dedicated, low-latency transport layer for Solana market data.
+- [Geolocation Verification](https://doublezero.xyz/geolocation-verification): Physics-based, onchain-verifiable location proof (experimental).
+
+## Network
+
+- [Network Dashboard](https://doublezero.xyz/dashboard): Live map of DoubleZero network nodes, links, and coverage.
+- [The Network](https://doublezero.xyz/network): How the high-performance network is built and operated.
+- [Network Health](https://doublezero.xyz/network-health): Real-time network health and performance.
+
+## Participate
+
+- [Validators](https://doublezero.xyz/validator): How validators connect to DoubleZero and earn revenue share.
+- [Contribute](https://doublezero.xyz/contribute): How fiber contributors deploy devices and earn protocol revenue.
+- [Delegation Program](https://doublezero.xyz/dzdp): The DoubleZero Delegation Program (DZDP) for stake delegation.
+
+## Token and economics
+
+- [Token Economics](https://doublezero.xyz/tokeneconomics): The 2Z token model and economic design.
+- [Economic Hub](https://doublezero.xyz/economic-hub): Economic activity and rewards across the network.
+
+## Company and resources
+
+- [Ecosystem](https://doublezero.xyz/ecosystem): Partners, integrations, and the broader DoubleZero ecosystem.
+- [Press & Media](https://doublezero.xyz/press): Press resources and media coverage.
+- [Careers](https://doublezero.xyz/careers): Open roles at DoubleZero.
+- [Contact](https://doublezero.xyz/contact-us): Get in touch with the DoubleZero team.
+- [Whitepaper](https://doublezero.xyz/whitepaper.pdf): The DoubleZero technical whitepaper (PDF).
+
+## Legal
+
+- [Privacy Policy](https://doublezero.xyz/privacy)
+- [Terms of Service](https://doublezero.xyz/terms)
+- [Cookie Policy](https://doublezero.xyz/cookie-policy)

@@ -1,0 +1,9 @@
+# Security policy for DoubleZero
+# Per RFC 9116 — https://securitytxt.org
+
+Contact: mailto:security@doublezero.xyz
+Contact: https://doublezero.xyz/contact-us
+Contact: https://t.me/doublezero_telegram_bot
+Expires: 2027-07-15T16:17:16.074Z
+Canonical: https://doublezero.xyz/.well-known/security.txt
+Preferred-Languages: en

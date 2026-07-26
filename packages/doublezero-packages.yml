@@ -1,0 +1,50 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.malbeclabs.com/setup/ ; https://crates.io/search?q=doublezero
+notes: >-
+  DoubleZero ships its client as a system package (the `doublezero` CLI +
+  `doublezerod` daemon) via Cloudsmith apt/rpm repositories, not via a
+  language-SDK registry. A first-party family of `doublezero-*` crates is
+  reserved on crates.io but currently published as 0.0.0 placeholders
+  (description "Placeholder"), so they are namespace reservations rather than
+  functional client SDKs — recorded here honestly, NOT wired as SDKs.
+packages:
+- name: doublezero
+  kind: system-package
+  registry: cloudsmith
+  official: true
+  channels:
+    mainnet-beta:
+      setup: curl -1sLf https://dl.cloudsmith.io/public/malbeclabs/doublezero/setup.deb.sh | sudo -E bash
+      install: sudo apt-get install doublezero
+    testnet:
+      setup: curl -1sLf https://dl.cloudsmith.io/public/malbeclabs/doublezero-testnet/setup.deb.sh | sudo -E bash
+      install: sudo apt-get install doublezero
+    rpm-mainnet-beta:
+      setup: curl -1sLf https://dl.cloudsmith.io/public/malbeclabs/doublezero/setup.rpm.sh | sudo -E bash
+      install: sudo yum install doublezero
+  binaries:
+  - doublezero
+  - doublezerod
+  docs: https://docs.malbeclabs.com/setup/
+crates_reserved:
+  registry: crates.io
+  official: true
+  status: placeholder-0.0.0
+  names:
+  - doublezero
+  - doublezero-cli
+  - doublezero-solana
+  - doublezero-solana-cli
+  - doublezero-sdk
+  - doublezero-sui
+  - doublezero-admin
+  - doublezero-telemetry
+  - doublezero-config
+  - doublezero-passport
+  - doublezero-record
+  - doublezero-revenue-distribution
+  - doublezero-program-tools
+  - doublezero-programs-common
+  - doublezero-validator-debt
+  - doublezero-activator

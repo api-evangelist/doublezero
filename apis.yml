@@ -1,8 +1,18 @@
 aid: doublezero
 name: DoubleZero
-description: 'DoubleZero is a company surfaced as a portfolio company of multicoin-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  DoubleZero is a decentralized physical infrastructure network (DePIN) that
+  builds and operates a global, permissionless, dedicated-fiber backbone for
+  distributed systems like blockchains — delivering low-latency, high-throughput
+  connectivity where milliseconds matter. Its two-ring architecture pairs
+  edge-node filtering with private high-bandwidth transport, connecting Solana
+  validators, RPCs, and market-data consumers directly to one another. The
+  network is coordinated by onchain smart contracts on Solana and powered by the
+  2Z SPL token, which meters bandwidth access, rewards fiber and device
+  contributors for measured performance, and drives stake delegation. Operators
+  connect through the first-party `doublezero` CLI and `doublezerod` daemon.
+  Founded by Austin Federa with Malbec Labs; backed by Multicoin Capital and
+  Dragonfly Capital.
 url: https://raw.githubusercontent.com/api-evangelist/doublezero/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +20,32 @@ x-backed-by:
 - multicoin-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://doublezero.xyz/og-image.jpg
 tags:
 - Company
 - Crypto Web3
+- DePIN
+- Blockchain
+- Networking
+- Infrastructure
+- Solana
+- Low Latency
+- Fiber Network
+- CLI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +55,40 @@ maintainers:
 common:
 - type: Website
   url: https://doublezero.xyz
+- type: Documentation
+  url: https://docs.malbeclabs.com
+- type: GitHubOrganization
+  url: https://github.com/doublezerofoundation
+- type: Blog
+  url: https://doublezero.xyz/journal
+- type: Support
+  url: https://doublezero.xyz/contact-us
+- type: Careers
+  url: https://doublezero.xyz/careers
+- type: PrivacyPolicy
+  url: https://doublezero.xyz/privacy
+- type: TermsOfService
+  url: https://doublezero.xyz/terms
+- type: Whitepaper
+  url: https://doublezero.xyz/whitepaper.pdf
+- type: CLI
+  url: cli/doublezero-cli.yml
+- type: Packages
+  url: packages/doublezero-packages.yml
+- type: LLMsTxt
+  url: llms/doublezero-llms.txt
+- type: WellKnown
+  url: well-known/doublezero-well-known.yml
+- type: SecurityTxt
+  url: well-known/doublezero-security.txt
+- type: VulnerabilityDisclosure
+  url: security/doublezero-vulnerability-disclosure.yml
+- type: Security
+  url: https://doublezero.xyz/.well-known/security.txt
+- type: DomainSecurity
+  url: security/doublezero-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

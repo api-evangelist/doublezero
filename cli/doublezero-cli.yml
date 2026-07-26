@@ -1,0 +1,33 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.malbeclabs.com/setup/
+cli:
+  name: doublezero
+  daemon: doublezerod
+  description: >-
+    User-facing command-line tool for connecting to the DoubleZero
+    high-performance network; pairs with the doublezerod systemd daemon.
+  install:
+  - platform: debian-ubuntu-mainnet-beta
+    commands:
+    - curl -1sLf https://dl.cloudsmith.io/public/malbeclabs/doublezero/setup.deb.sh | sudo -E bash
+    - sudo apt-get install doublezero
+  - platform: debian-ubuntu-testnet
+    commands:
+    - curl -1sLf https://dl.cloudsmith.io/public/malbeclabs/doublezero-testnet/setup.deb.sh | sudo -E bash
+    - sudo apt-get install doublezero
+  - platform: rhel-rocky-mainnet-beta
+    commands:
+    - curl -1sLf https://dl.cloudsmith.io/public/malbeclabs/doublezero/setup.rpm.sh | sudo -E bash
+    - sudo yum install doublezero
+  commands:
+  - command: doublezero keygen
+    summary: Create a new DoubleZero identity.
+  - command: doublezero address
+    summary: Display your DoubleZero identity / public key.
+  - command: doublezero latency
+    summary: Check connectivity/latency to available DZ devices.
+  - command: doublezero status
+    summary: Verify connection state.
+  - command: doublezero disconnect
+    summary: Terminate the current session.
