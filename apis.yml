@@ -46,6 +46,10 @@ specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 image: https://doublezero.xyz/og-image.jpg
+x-docs-platform: mkdocs
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-09-25
+x-docs-hosting: github-pages
 tags:
 - Company
 - Crypto Web3
@@ -57,6 +61,7 @@ tags:
 - Low Latency
 - Fiber Network
 - CLI
+- Web3
 apis: []
 maintainers:
 - FN: Kin Lane
