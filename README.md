@@ -64,6 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-DoubleZero is a company surfaced as a portfolio company of multicoin-capital and added to the API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead awaiting the enrichment pipeline.
+DoubleZero is a decentralized physical infrastructure network (DePIN) that builds and operates a global, permissionless, dedicated-fiber backbone for distributed systems like blockchains — delivering low-latency, high-throughput connectivity where milliseconds matter. Its two-ring architecture pairs edge-node filtering with private high-bandwidth transport, connecting Solana validators, RPCs, and market-data consumers directly to one another. The network is coordinated by onchain smart contracts on Solana and powered by the 2Z SPL token, which meters bandwidth access, rewards fiber and device contributors for measured performance, and drives stake delegation. Operators connect through the first-party `doublezero` CLI and `doublezerod` daemon. Founded by Austin Federa with Malbec Labs; backed by Multicoin Capital and Dragonfly Capital.
 
-Backed by: multicoin-capital — https://doublezero.xyz
+**Areas:** Company · Web3 · DePIN · Blockchain · Networking · Infrastructure · Solana · Low Latency · Fiber Network · CLI
+
+## DoubleZero on APIs.io
+
+Everything profiled for DoubleZero is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/doublezero/](https://apis.io/providers/doublezero/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Doublezero Domain Security](https://apis.io/security/doublezero/doublezero-domain-security/)
+- [Doublezero Vulnerability Disclosure](https://apis.io/security/doublezero/doublezero-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://doublezero.xyz)
+- [Documentation](https://docs.malbeclabs.com)
+- [Support](https://doublezero.xyz/contact-us)
+- [Blog](https://doublezero.xyz/journal)
+- [Security](https://doublezero.xyz/.well-known/security.txt)
+- [Terms of service](https://doublezero.xyz/terms)
+- [Privacy policy](https://doublezero.xyz/privacy)
+- [GitHub](https://github.com/doublezerofoundation)
+
+## API Evangelist rating
+
+**Kin Score 16.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/doublezero/](https://apis.io/providers/doublezero/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for DoubleZero: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/doublezero/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
